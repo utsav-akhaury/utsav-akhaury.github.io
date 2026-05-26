@@ -1,0 +1,171 @@
+cv:
+  name: Utsav Akhaury
+  # label: AI Software Engineer
+  email: utsav.akhaury.2015@gmail.com
+  location: San Francisco, CA
+  image: ""
+  # summary: AI Software Engineer at Spot AI, building Agentic Vision — AI that sees, reasons, and acts on real-time video. Previously EPFL PhD (Physics) working on deep-learning image deconvolution for NASA / ESA missions.
+
+  social_networks:
+    - network: GitHub
+      username: utsav-akhaury
+    - network: LinkedIn
+      username: utsav-akhaury
+    - network: GoogleScholar
+      username: b-hEyyYAAAAJ
+    - network: ORCID
+      username: 0000-0002-8474-2575
+    - network: X
+      username: UtsavAkhaury
+
+  # address:
+  #   city: San Francisco
+  #   region: California
+  #   countryCode: US
+
+  sections:
+    Education:
+      - institution: Swiss Federal Institute of Technology, Lausanne (EPFL)
+        location: Lausanne, Switzerland
+        url: https://www.epfl.ch/
+        area: Physics
+        studyType: PhD
+        start_date: 2021-09
+        end_date: 2026-02
+        logo: epfl.png 
+        logo_dark: epfl.png
+        logo_scale: 0.9
+        highlights:
+          - '*Thesis*: Advancing astronomical image deconvolution with deep learning <a class="cv-inline-icon" href="https://infoscience.epfl.ch/entities/publication/bc2e9888-d73a-47f6-bdd6-630621730fec" target="_blank" rel="noopener" title="PDF"><i class="fa-solid fa-file-pdf"></i></a>'
+          - "Supervisors: [Pascale Jablonka](https://people.epfl.ch/pascale.jablonka), [Jean-Luc Starck](https://jstarck.cosmostat.org/)"
+
+      - institution: Birla Institute of Technology and Science (BITS), Pilani
+        location: Pilani, India
+        url: https://www.bits-pilani.ac.in/
+        studyType: "Dual Degree: M.Sc. Physics + B.E. Electronics & Instrumentation Engineering"
+        start_date: 2016-08
+        end_date: 2021-05
+        logo: bitspilani.png
+        logo_dark: bitspilani.png
+        highlights:
+          - "*Thesis*: Reconstruction of multi-frequency radio galaxy images using Machine Learning & ADMM."
+          - "Supervisor: [Jean-Luc Starck](https://jstarck.cosmostat.org/)"
+
+    Experience:
+      - company: Spot AI
+        url: https://spot.ai
+        position: AI Software Engineer
+        location: San Francisco, CA
+        start_date: 2026-03
+        end_date: Present
+        logo: spot_ai_dark.png
+        logo_dark: spot_ai_white.png
+        logo_scale: 1.1
+        highlights:
+          - Building video AI agents for real-time perception, reasoning, and action.
+
+      - company: Swiss Federal Institute of Technology, Lausanne (EPFL)
+        url: https://www.epfl.ch/
+        position: Doctoral Assistant
+        location: Lausanne, Switzerland
+        start_date: 2021-09
+        end_date: 2026-02
+        logo: epfl.png
+        logo_dark: epfl.png
+        logo_scale: 0.9
+        highlights:
+          - "Built **deep learning** systems for large-scale image restoration using data from **NASA** and **ESA** missions, delivering ~1000× faster inference than classical methods."
+          - "Designed end-to-end ML pipelines from data simulation through model training, evaluation, and deployment — scaling large vision models across **multi-node GPU** clusters via Slurm-scheduled HPC workflows."
+          - "Developed a novel **multi-resolution image fusion** framework that combines multi-telescope, multi-spectral imaging data."
+          - "Mentored junior researchers on independent projects and collaborated with teams across Europe and North America."
+
+      - company: Google Summer of Code (GSoC)
+        url: https://summerofcode.withgoogle.com/
+        position: Open-source Developer
+        location: Remote
+        start_date: 2021-05
+        end_date: 2021-08
+        logo: gsoc.png
+        logo_dark: gsoc.png
+        logo_scale: 0.9
+        highlights:
+          - "Built an automated framework for training **ML surrogates** that deliver near real-time predictions in place of computationally-expensive radar simulations — a GSoC contribution to gprMax (open-source simulation platform)."
+
+      - company: Observatoire de la Côte d'Azur
+        url: https://www.oca.eu/
+        position: Research Intern
+        location: Nice, France
+        start_date: 2021-05
+        end_date: 2021-08
+        logo: oca.jpg 
+        logo_dark: oca_dark.jpg
+        highlights:
+          - "Built **3D CNNs** extending a 2D point detection algorithm to 3D on a 1 TB signal-cube dataset."
+          - "Designed a custom loss function with tunable intensity weighting to recover faint signals and improve detection of weak targets."
+
+      - company: French Alternative Energies and Atomic Energy Commission (CEA)
+        url: https://www.cea.fr/
+        position: Research Intern
+        location: Paris, France
+        start_date: 2020-11
+        end_date: 2021-04
+        logo: cea.png
+        logo_dark: cea.png
+        logo_scale: 0.9
+        highlights:
+          - "Co-developed **deep learning** deconvolution algorithms for optical and radio imaging, marking the **first application** of this technology to radio-interferometry."
+          - "Contributed to a synthetic dataset of 51,000+ images using Transformer-based generative models (Tensor2Tensor), released publicly as a **community benchmark**."
+
+    Skills:
+      - name: Languages
+        keywords: "Python, C++, Julia, MATLAB, Rust"
+      - name: ML / Deep Learning
+        keywords: "PyTorch, CUDA, Hugging Face, TensorFlow, scikit-learn"
+      - name: Computer Vision
+        keywords: "OpenCV, ONNX, TensorRT, FFmpeg"
+      - name: MLOps & Tooling
+        keywords: "Slurm, Docker, Kubernetes, Google Cloud, GitHub Actions"
+
+    Awards:
+      - title: "EPFL PhD Excellence Fellowship"
+        date: 2023
+        awarder: "Swiss Federal Institute of Technology, Lausanne (EPFL)"
+        summary: "Selected as one of 27 PhD students across all departments."
+
+      - title: "Young Scientist Support Grant"
+        date: 2023
+        awarder: "Swiss Society for Astrophysics and Astronomy (SSAA)"
+        summary: "Travel grant awarded to support academic visits, conferences, and summer schools."
+
+      - title: "BITS Merit-cum-Need Scholarship"
+        date: 2017
+        awarder: "Birla Institute of Technology and Science (BITS), Pilani"
+        summary: "Awarded to top-performing students at BITS Pilani. Covered 80% of annual tuition."
+
+    Service and Volunteering:
+      - title: "Journal Reviewer"
+        date: 2026
+        awarder: "Astronomy & Astrophysics (A&A)"
+        awarder_url: "https://www.aanda.org/"
+        summary: "Peer-reviewed manuscripts at the intersection of deep learning and astronomy."
+
+      - title: "External Relations Committee Member"
+        date: "2023–2024"
+        awarder: "EPFL Data Analytics Group"
+        summary: "Managed corporate-partner outreach and sponsorship for EPFL's data analytics community."
+
+      - title: "STEM Outreach Volunteer"
+        date: 2024
+        awarder: "International School of Lausanne"
+        summary: "Shared my work on AI and space telescopes with school students on the International Day of Women and Girls in Science."
+
+      - title: "Astronomy Outreach Organizer"
+        date: "2010–2024"
+        awarders:
+          - name: "Observatoire de Genève"
+            url: "https://www.unige.ch/sciences/astro/"
+          - name: "BITS Pilani"
+            url: "https://www.bits-pilani.ac.in/"
+          - name: "The Scindia School"
+            url: "https://www.scindia.edu/"
+        summary: "Organized astronomy outreach events and public sky-watching sessions, engaging audiences ranging from school students to working professionals."

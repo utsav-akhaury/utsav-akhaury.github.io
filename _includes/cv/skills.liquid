@@ -1,0 +1,22 @@
+{% comment %}
+  Unified skills entry renderer — pill style mirroring the about page.
+  Accepts entry.keywords as either a comma-separated string or a list.
+{% endcomment %}
+
+<div class="card-text font-weight-light cv-skills">
+  {% for entry in entries %}
+    <div class="cv-skill-row">
+      <strong>
+        {%- if entry.icon %}<i class="{{ entry.icon }}"></i> {% endif -%}
+        {{- entry.name -}}
+        {%- if entry.level %} ({{ entry.level }}){% endif -%}
+      </strong>
+      {% if entry.keywords %}
+        {% assign kw_list = entry.keywords | split: ',' %}
+        {% for keyword in kw_list %}
+          <span class="cv-skill-pill">{{ keyword | strip }}</span>
+        {% endfor %}
+      {% endif %}
+    </div>
+  {% endfor %}
+</div>

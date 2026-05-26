@@ -1,0 +1,98 @@
+{% comment %}
+  Unified awards entry renderer for both formats
+{% endcomment %}
+
+<ul class="card-text font-weight-light list-group list-group-flush">
+  {% for entry in entries %}
+    <li class="list-group-item cv-award-item">
+      <div class="row">
+        {% capture start_date %}
+          {% if entry.date %}{{ entry.date }}{% endif %}
+        {% endcapture %}
+
+        {% if start_date != '' %}
+          <div class="col-xs-2 col-sm-2 col-md-2 text-center">
+            <table class="table-cv">
+              <tbody>
+                <tr>
+                  <td>
+                    <span class="badge font-weight-bold danger-color-dark align-middle" style="min-width: 75px">
+                      {{- start_date | split: '-' | slice: 0, 1 | join: '' -}}
+                    </span>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="col-xs-10 col-sm-10 col-md-10 mt-2 mt-md-0">
+            {% if entry.url %}
+              <h6 class="title font-weight-bold ml-1 ml-md-4">
+                <a href="{{ entry.url }}">{{ entry.title }}</a>
+              </h6>
+            {% elsif entry.title %}
+              <h6 class="title font-weight-bold ml-1 ml-md-4">{{ entry.title }}</h6>
+            {% endif %}
+
+            {% if entry.awarders %}
+              <h6 class="ml-1 ml-md-4 mt-1">
+                {% for org in entry.awarders %}
+                  {% if org.url %}
+                    <a class="cv-org-pill cv-org-pill--neutral" href="{{ org.url }}" target="_blank" rel="noopener">{{ org.name }}</a>
+                  {% else %}
+                    <span class="cv-org-pill cv-org-pill--neutral">{{ org.name }}</span>
+                  {% endif %}
+                {% endfor %}
+              </h6>
+            {% elsif entry.awarder %}
+              <h6 class="ml-1 ml-md-4 mt-1">
+                {% if entry.awarder_url %}
+                  <a class="cv-org-pill cv-org-pill--neutral" href="{{ entry.awarder_url }}" target="_blank" rel="noopener">{{ entry.awarder }}</a>
+                {% else %}
+                  <span class="cv-org-pill cv-org-pill--neutral">{{ entry.awarder }}</span>
+                {% endif %}
+              </h6>
+            {% endif %}
+
+            {% if entry.summary %}
+              <p class="ml-1 ml-md-4">{{ entry.summary | markdownify | remove: '<p>' | remove: '</p>' }}</p>
+            {% endif %}
+          </div>
+        {% else %}
+          <div class="col-xs-12 col-sm-12 col-md-12">
+            {% if entry.url %}
+              <h6 class="title font-weight-bold ml-1 ml-md-4">
+                <a href="{{ entry.url }}">{{ entry.title }}</a>
+              </h6>
+            {% elsif entry.title %}
+              <h6 class="title font-weight-bold ml-1 ml-md-4">{{ entry.title }}</h6>
+            {% endif %}
+
+            {% if entry.awarders %}
+              <h6 class="ml-1 ml-md-4 mt-1">
+                {% for org in entry.awarders %}
+                  {% if org.url %}
+                    <a class="cv-org-pill cv-org-pill--neutral" href="{{ org.url }}" target="_blank" rel="noopener">{{ org.name }}</a>
+                  {% else %}
+                    <span class="cv-org-pill cv-org-pill--neutral">{{ org.name }}</span>
+                  {% endif %}
+                {% endfor %}
+              </h6>
+            {% elsif entry.awarder %}
+              <h6 class="ml-1 ml-md-4 mt-1">
+                {% if entry.awarder_url %}
+                  <a class="cv-org-pill cv-org-pill--neutral" href="{{ entry.awarder_url }}" target="_blank" rel="noopener">{{ entry.awarder }}</a>
+                {% else %}
+                  <span class="cv-org-pill cv-org-pill--neutral">{{ entry.awarder }}</span>
+                {% endif %}
+              </h6>
+            {% endif %}
+
+            {% if entry.summary %}
+              <p class="ml-1 ml-md-4">{{ entry.summary | markdownify | remove: '<p>' | remove: '</p>' }}</p>
+            {% endif %}
+          </div>
+        {% endif %}
+      </div>
+    </li>
+  {% endfor %}
+</ul>
