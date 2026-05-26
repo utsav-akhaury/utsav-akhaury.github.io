@@ -37,15 +37,9 @@ Across 5+ years, I've built, trained, and shipped ML systems from prototype to p
 
 ## What I work on
 
-<div class="skill-row">
-  <span class="skill-pill skill-pill--lead">Perception</span>
-  Detection, tracking, and segmentation for real-time video (YOLO, ByteTrack, SAM 2)</div>
-<div class="skill-row">
-  <span class="skill-pill skill-pill--lead">Restoration</span>
-  Denoising, deconvolution, and super-resolution for astronomical imaging (U-Net, ViT, Swin Transformer)</div>
-<div class="skill-row">
-  <span class="skill-pill skill-pill--lead">Multi-modality</span>
-  VLMs and CLIP-based retrieval for natural-language video search</div>
+- **Perception** — Detection, tracking, and segmentation for real-time video (YOLO, ByteTrack, SAM 2)
+- **Restoration** — Denoising, deconvolution, and super-resolution for astronomical imaging (U-Net, ViT, Swin Transformer)
+- **Multi-modality** — VLMs and CLIP-based retrieval for natural-language video search
 
 
 ## Tech I work with

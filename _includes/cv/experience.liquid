@@ -9,7 +9,7 @@
   {% for entry in entries %}
     <li class="list-group-item">
       <div class="row">
-        <div class="col-xs-3 col-sm-3 col-md-3 text-center date-column">
+        <div class="col-12 col-md-3 text-center date-column">
           {% capture start_date %}
             {% if entry.start_date %}{{ entry.start_date }}{% elsif entry.startDate %}{{ entry.startDate }}{% endif %}
           {% endcapture %}
@@ -45,9 +45,19 @@
                 {% capture logo_style %}max-width: {{ logo_w }}px; max-height: {{ logo_h }}px;{% endcapture %}
                 <tr>
                   <td>
-                    <img class="cv-logo cv-logo--light" style="{{ logo_style }}" src="{{ entry.logo | prepend: '/assets/img/cv_logos/' | relative_url }}" alt="{{ entry.name | default: entry.company | default: entry.organization }} logo">
+                    <img
+                      class="cv-logo cv-logo--light"
+                      style="{{ logo_style }}"
+                      src="{{ entry.logo | prepend: '/assets/img/cv_logos/' | relative_url }}"
+                      alt="{{ entry.name | default: entry.company | default: entry.organization }} logo"
+                    >
                     {% if entry.logo_dark %}
-                      <img class="cv-logo cv-logo--dark" style="{{ logo_style }}" src="{{ entry.logo_dark | prepend: '/assets/img/cv_logos/' | relative_url }}" alt="{{ entry.name | default: entry.company | default: entry.organization }} logo">
+                      <img
+                        class="cv-logo cv-logo--dark"
+                        style="{{ logo_style }}"
+                        src="{{ entry.logo_dark | prepend: '/assets/img/cv_logos/' | relative_url }}"
+                        alt="{{ entry.name | default: entry.company | default: entry.organization }} logo"
+                      >
                     {% endif %}
                   </td>
                 </tr>
@@ -70,7 +80,7 @@
             </tbody>
           </table>
         </div>
-        <div class="col-xs-9 col-sm-9 col-md-9 mt-2 mt-md-0">
+        <div class="col-12 col-md-9 mt-2 mt-md-0">
           {% capture position_title %}
             {% if entry.position %}{{ entry.position }}{% endif %}
           {% endcapture %}
