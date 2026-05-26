@@ -1,5 +1,7 @@
 _site
 .bundle
+.claude/
+.gemini/
 .DS_store
 .idea
 .jekyll-cache

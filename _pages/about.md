@@ -52,9 +52,7 @@ Across 5+ years, I've built, trained, and shipped ML systems from prototype to p
 
 <style>
   .post p {
-    text-align: justify;
-    hyphens: auto;
-    -webkit-hyphens: auto;
+    text-align: left;
   }
   .skill-pill {
     display: inline-block;

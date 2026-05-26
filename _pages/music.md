@@ -22,7 +22,7 @@ A few elements that can make me instantly like a song:
 
 <style>
   .post p {
-    text-align: justify;
+    text-align: left;
     overflow-wrap: break-word;
     hyphens: none;
   }
