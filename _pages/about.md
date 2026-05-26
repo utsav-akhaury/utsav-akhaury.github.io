@@ -94,6 +94,10 @@ Across 5+ years, I've built, trained, and shipped ML systems from prototype to p
   }
   .profile .contact-icons a { margin: 0 3px; }
   .profile .contact-note { display: none; }
+
+  @media (max-width: 575.98px) {
+    .profile { margin-bottom: 1.75rem; }
+  }
 </style>
 
 <script>
