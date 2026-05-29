@@ -32,9 +32,6 @@ cv:
         studyType: PhD
         start_date: 2021-09
         end_date: 2026-02
-        logo: epfl.png 
-        logo_dark: epfl.png
-        logo_scale: 0.9
         highlights:
           - '*Thesis*: Advancing astronomical image deconvolution with deep learning <a class="cv-inline-icon" href="https://infoscience.epfl.ch/entities/publication/bc2e9888-d73a-47f6-bdd6-630621730fec" target="_blank" rel="noopener" title="PDF"><i class="fa-solid fa-file-pdf"></i></a>'
           - "Supervisors: [Pascale Jablonka](https://people.epfl.ch/pascale.jablonka), [Jean-Luc Starck](https://jstarck.cosmostat.org/)"
@@ -45,8 +42,6 @@ cv:
         studyType: "Dual Degree: M.Sc. Physics + B.E. Electronics & Instrumentation Engineering"
         start_date: 2016-08
         end_date: 2021-05
-        logo: bitspilani.png
-        logo_dark: bitspilani.png
         highlights:
           - "*Thesis*: Reconstruction of multi-frequency radio galaxy images using Machine Learning & ADMM."
           - "Supervisor: [Jean-Luc Starck](https://jstarck.cosmostat.org/)"
@@ -58,9 +53,6 @@ cv:
         location: San Francisco, CA
         start_date: 2026-03
         end_date: Present
-        logo: spot_ai_dark.png
-        logo_dark: spot_ai_white.png
-        logo_scale: 1.1
         highlights:
           - Building video AI agents for real-time perception, reasoning, and action.
 
@@ -70,9 +62,6 @@ cv:
         location: Lausanne, Switzerland
         start_date: 2021-09
         end_date: 2026-02
-        logo: epfl.png
-        logo_dark: epfl.png
-        logo_scale: 0.9
         highlights:
           - "Built **deep learning** systems for large-scale image restoration using data from **NASA** and **ESA** missions, delivering ~1000× faster inference than classical methods."
           - "Designed end-to-end ML pipelines from data simulation through model training, evaluation, and deployment — scaling large vision models across **multi-node GPU** clusters via Slurm-scheduled HPC workflows."
@@ -85,9 +74,6 @@ cv:
         location: Remote
         start_date: 2021-05
         end_date: 2021-08
-        logo: gsoc.png
-        logo_dark: gsoc.png
-        logo_scale: 0.9
         highlights:
           - "Built an automated framework for training **ML surrogates** that deliver near real-time predictions in place of computationally-expensive radar simulations — a GSoC contribution to gprMax (open-source simulation platform)."
 
@@ -97,8 +83,6 @@ cv:
         location: Nice, France
         start_date: 2021-05
         end_date: 2021-08
-        logo: oca.jpg 
-        logo_dark: oca_dark.jpg
         highlights:
           - "Built **3D CNNs** extending a 2D point detection algorithm to 3D on a 1 TB signal-cube dataset."
           - "Designed a custom loss function with tunable intensity weighting to recover faint signals and improve detection of weak targets."
@@ -109,9 +93,6 @@ cv:
         location: Paris, France
         start_date: 2020-11
         end_date: 2021-04
-        logo: cea.png
-        logo_dark: cea.png
-        logo_scale: 0.9
         highlights:
           - "Co-developed **deep learning** deconvolution algorithms for optical and radio imaging, marking the **first application** of this technology to radio-interferometry."
           - "Contributed to a synthetic dataset of 51,000+ images using Transformer-based generative models (Tensor2Tensor), released publicly as a **community benchmark**."

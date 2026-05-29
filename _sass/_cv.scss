@@ -6,6 +6,11 @@ div.container-link-button {
   margin-right: 0.5rem;
 }
 
+span.cv-pdf-disabled {
+  color: var(--global-divider-color);
+  cursor: default;
+}
+
 table.table-cv {
   background-color: transparent !important;
 
@@ -186,32 +191,17 @@ span.badge-toc {
 span.location {
   display: inline-block;
   max-width: 100%;
-  padding: 1px 8px 1px 5px;
-  border-radius: 999px;
-  background-color: transparent;
-  border: 1px solid var(--global-divider-color);
   color: var(--global-text-color);
-  font-size: 0.62rem;
+  font-size: 0.8rem;
   font-weight: 500;
   line-height: 1.4;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
   vertical-align: middle;
 
   .iconlocation {
     color: var(--global-text-color);
-    font-size: 0.7rem;
-    margin-right: 2px;
+    font-size: 0.85rem;
+    margin-right: 3px;
   }
-}
-
-img.cv-logo {
-  display: block;
-  max-width: 90px;
-  max-height: 65px;
-  margin: 10px auto 0;
-  object-fit: contain;
 }
 
 .cv .list-group-item {
@@ -278,7 +268,7 @@ a.cv-inline-icon:hover {
 }
 
 .cv-skills .cv-skill-row {
-  margin-bottom: 4px;
+  margin-bottom: 0.75rem;
   padding-left: 1.2rem;
 
   & > strong {
@@ -305,16 +295,6 @@ a.cv-inline-icon:hover {
   color: var(--global-bg-color);
 }
 
-.cv-org-pill--neutral {
-  border-color: var(--global-divider-color) !important;
-  color: var(--global-text-color) !important;
-}
-.cv-org-pill--neutral:hover {
-  background: var(--global-theme-color) !important;
-  border-color: var(--global-theme-color) !important;
-  color: var(--global-bg-color) !important;
-}
-
 .cv-org-pill {
   display: inline-block;
   padding: 2px 12px;
@@ -324,41 +304,14 @@ a.cv-inline-icon:hover {
   border-radius: 999px;
   font-size: 0.85rem;
   font-weight: 500;
-  color: var(--global-theme-color);
-  background: transparent;
+  color: var(--global-bg-color);
+  background: var(--global-theme-color);
   text-decoration: none;
-  transition: all 120ms ease;
 
   &:hover {
-    background: var(--global-theme-color);
     color: var(--global-bg-color);
     text-decoration: none;
   }
-}
-
-table.table-cv td.cv-date-cell {
-  padding-top: 35px;
-}
-table.table-cv td.cv-location-cell {
-  padding-top: -10px;
-}
-
-span.cv-date-tag {
-  display: inline-block;
-  color: var(--global-text-color);
-  font-weight: 400;
-  font-size: 0.73rem;
-  white-space: nowrap;
-}
-
-img.cv-logo--dark {
-  display: none;
-}
-html[data-theme="dark"] img.cv-logo--light {
-  display: none;
-}
-html[data-theme="dark"] img.cv-logo--dark {
-  display: inline-block;
 }
 
 ul.timeline li::before {

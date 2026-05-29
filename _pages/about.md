@@ -26,21 +26,28 @@ latest_posts:
   limit: 3
 ---
 
-I'm an engineer with a long-standing passion for AI/ML and computer vision — one I turned into a PhD. 
+I'm an engineer with a long-standing passion for AI/ML and computer vision — one I turned into a PhD.
 
-I now apply that foundation as an AI Software Engineer at [Spot AI](https://spot.ai), working on _Agentic Vision_ —  AI that sees, reasons, and acts on real-time video.
+I now apply that foundation as an AI Software Engineer at [Spot AI](https://spot.ai), working on _Agentic Vision_ — AI that sees, reasons, and acts on real-time video.
 
-I hold a PhD in Physics from [École Polytechnique Fédérale de Lausanne (EPFL)](https://infoscience.epfl.ch/entities/publication/bc2e9888-d73a-47f6-bdd6-630621730fec). My thesis focused on deep learning–based image enhancement, working with data from flagship NASA and European Space Agency (ESA) missions like *Hubble*, *James Webb*, and *Euclid*. 
+I hold a PhD in Physics from [École Polytechnique Fédérale de Lausanne (EPFL)](https://infoscience.epfl.ch/entities/publication/bc2e9888-d73a-47f6-bdd6-630621730fec). My thesis focused on deep learning–based image enhancement, working with data from flagship NASA and European Space Agency (ESA) missions like _Hubble_, _James Webb_, and _Euclid_.
 
 Across 5+ years, I've built, trained, and shipped ML systems from prototype to production, with deep experience in HPC environments (multi-node GPU training, distributed data pipelines). In 2021, I was a [Google Summer of Code](https://summerofcode.withgoogle.com/archive/2021/projects/5922912141312000) contributor, building ML surrogates for physics-based simulation.
 
-
 ## What I work on
 
-- **Perception** — Detection, tracking, and segmentation for real-time video (YOLO, ByteTrack, SAM 2)
-- **Restoration** — Denoising, deconvolution, and super-resolution for astronomical imaging (U-Net, ViT, Swin Transformer)
-- **Multi-modality** — VLMs and CLIP-based retrieval for natural-language video search
-
+<div class="work-row">
+  <span class="skill-pill skill-pill--lead">Perception</span>
+  <span class="work-desc">Detection, tracking, and segmentation for real-time video (YOLO, ByteTrack, SAM 2)</span>
+</div>
+<div class="work-row">
+  <span class="skill-pill skill-pill--lead">Restoration</span>
+  <span class="work-desc">Denoising, deconvolution, and super-resolution for astronomical imaging (U-Net, ViT, Swin Transformer)</span>
+</div>
+<div class="work-row">
+  <span class="skill-pill skill-pill--lead">Multi-modality</span>
+  <span class="work-desc">VLMs and CLIP-based retrieval for natural-language video search</span>
+</div>
 
 ## Tech I work with
 
@@ -67,11 +74,18 @@ Across 5+ years, I've built, trained, and shipped ML systems from prototype to p
   }
   .skill-pill--lead {
     font-weight: 600;
-    border-color: var(--global-theme-color);
-    color: var(--global-theme-color);
   }
-  .skill-row { margin-bottom: 6px; }
+  .skill-row { margin-bottom: 12px; }
   .skill-row > strong { margin-right: 10px; }
+
+  .work-row {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+    margin-bottom: 15px;
+  }
+  .work-row > .skill-pill { margin: 0; flex: 0 0 auto; }
+  .work-desc { flex: 1; line-height: 1.6; }
 
   .profile.float-right { margin-left: 4rem; }
   .profile.float-left  { margin-right: 4rem; }

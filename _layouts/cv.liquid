@@ -30,6 +30,10 @@ layout: default
         >
           <i class="fa-solid fa-file-pdf"></i>
         </a>
+      {% else %}
+        <span class="float-right cv-pdf-disabled" title="CV coming soon" aria-disabled="true">
+          <i class="fa-solid fa-file-pdf"></i>
+        </span>
       {% endif %}
     </h1>
     {% if page.description %}

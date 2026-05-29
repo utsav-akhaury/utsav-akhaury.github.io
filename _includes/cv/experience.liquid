@@ -36,49 +36,17 @@
           {% endcapture %}
           {% assign location = location | strip %}
 
-          <table class="table-cv">
-            <tbody>
-              {% if entry.logo %}
-                {% assign logo_scale = entry.logo_scale | default: 1 %}
-                {% assign logo_w = 90 | times: logo_scale %}
-                {% assign logo_h = 65 | times: logo_scale %}
-                {% capture logo_style %}max-width: {{ logo_w }}px; max-height: {{ logo_h }}px;{% endcapture %}
+          {% if date != '' %}
+            <table class="table-cv">
+              <tbody>
                 <tr>
                   <td>
-                    <img
-                      class="cv-logo cv-logo--light"
-                      style="{{ logo_style }}"
-                      src="{{ entry.logo | prepend: '/assets/img/cv_logos/' | relative_url }}"
-                      alt="{{ entry.name | default: entry.company | default: entry.organization }} logo"
-                    >
-                    {% if entry.logo_dark %}
-                      <img
-                        class="cv-logo cv-logo--dark"
-                        style="{{ logo_style }}"
-                        src="{{ entry.logo_dark | prepend: '/assets/img/cv_logos/' | relative_url }}"
-                        alt="{{ entry.name | default: entry.company | default: entry.organization }} logo"
-                      >
-                    {% endif %}
+                    <span class="badge font-weight-bold danger-color-dark align-middle" style="min-width: 75px">{{ date }}</span>
                   </td>
                 </tr>
-              {% endif %}
-              <tr>
-                <td class="cv-date-cell">
-                  <span class="cv-date-tag">{{ date }}</span>
-                </td>
-              </tr>
-              {% if location != '' %}
-                <tr>
-                  <td class="cv-location-cell">
-                    <span class="location" title="{{ location | strip }}">
-                      <i class="fa-solid fa-location-dot iconlocation"></i>
-                      {{ location }}
-                    </span>
-                  </td>
-                </tr>
-              {% endif %}
-            </tbody>
-          </table>
+              </tbody>
+            </table>
+          {% endif %}
         </div>
         <div class="col-12 col-md-9 mt-2 mt-md-0">
           {% capture position_title %}
@@ -100,6 +68,15 @@
               {% else %}
                 <span class="cv-org-pill">{{ company_name }}</span>
               {% endif %}
+            </h6>
+          {% endif %}
+
+          {% if location != '' %}
+            <h6 class="ml-1 ml-md-4 mt-1 mb-3">
+              <span class="location" title="{{ location | strip }}">
+                <i class="fa-solid fa-location-dot iconlocation"></i>
+                {{ location }}
+              </span>
             </h6>
           {% endif %}
 
