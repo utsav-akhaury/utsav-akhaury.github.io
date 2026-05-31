@@ -6,8 +6,28 @@
 
 .navbar {
   box-shadow: none;
-  border-bottom: 1px solid var(--global-divider-color);
   background-color: var(--global-bg-color);
+}
+
+body:not(.fixed-top-nav) .navbar {
+  border-bottom: 1px solid var(--global-divider-color);
+}
+
+// Fixed-top navbar: draw the bottom border as a fixed-position line at
+// the collapsed-navbar height instead of on the navbar itself, so it
+// never transitions when the mobile collapse opens/closes. Otherwise the
+// navbar's GPU compositing layer leaves a stale 1px line at the
+// previously-expanded bottom edge until a scroll forces a repaint.
+body.fixed-top-nav::before {
+  content: "";
+  position: fixed;
+  top: 57px;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: var(--global-divider-color);
+  z-index: 1029;
+  pointer-events: none;
 }
 
 .navbar .dropdown-menu,
