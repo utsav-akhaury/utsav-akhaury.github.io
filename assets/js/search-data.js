@@ -11,14 +11,14 @@ ninja.data = [{
     },
   },{id: "nav-research",
           title: "Research",
-          description: "",
+          description: "Peer-reviewed publications by Utsav Akhaury — journal articles, conference proceedings, posters, and talks in deep learning and image restoration.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/publications/";
           },
         },{id: "nav-cv",
           title: "CV",
-          description: "",
+          description: "Curriculum vitae of Utsav Akhaury — AI Software Engineer at Spot AI and PhD in Physics from EPFL. Experience, education, skills, and awards.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
@@ -32,7 +32,7 @@ ninja.data = [{
           },
         },{id: "nav-music",
           title: "Music",
-          description: "",
+          description: "Music by Utsav Akhaury — AI software engineer by day, musician by night.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/music/";
