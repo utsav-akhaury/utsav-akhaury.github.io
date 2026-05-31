@@ -3,6 +3,7 @@ layout: page
 permalink: /music/
 title: Music
 description: "Music by Utsav Akhaury — AI software engineer by day, musician by night."
+hide_description: true
 nav: true
 nav_order: 4
 ---
@@ -14,6 +15,7 @@ My background in Electronics Engineering and Astrophysics eventually found their
 Having lived in four countries across three continents, I'm endlessly drawn to the intricate details of music from around the world. After years of experimentation, improvisation, and a bit of procrastination, I'm finally proud to share my creative journey.
 
 A few elements that can make me instantly like a song:
+
 1. Odd time signatures and polyrhythms
 2. Modal interchange — especially the minor plagal cadence (iv → I)
 3. Modal colour notes like ♭2, ♯4, ♭6
@@ -123,7 +125,6 @@ A few elements that can make me instantly like a song:
   {% include figure.liquid path="assets/img/music/dj.jpg" zoomable=true class="img-fluid rounded z-depth-1" caption="Behind the decks in Crete, Greece, 2024" %}
 </div>
 
-
 ## Releases
 
 If you want to hear what I've actually finished, the originals are on Spotify, YouTube, and Apple Music. The covers, jam sessions, and mashups I can't help posting go up on Instagram.
@@ -150,7 +151,6 @@ If you want to hear what I've actually finished, the originals are on Spotify, Y
 
 ## YouTube <a class="music-header-link" href="https://youtube.com/@UtsavAkhaury" target="_blank" rel="noopener" title="Open on YouTube"><i class="fa-brands fa-youtube"></i></a>
 
-
 <div class="yt-grid">
   <iframe
     src="https://www.youtube.com/embed/r5V7XWV1HNs"
@@ -165,7 +165,6 @@ If you want to hear what I've actually finished, the originals are on Spotify, Y
     loading="lazy">
   </iframe>
 </div>
-
 
 <div class="yt-shorts">
   <iframe
@@ -193,10 +192,3 @@ If you want to hear what I've actually finished, the originals are on Spotify, Y
     loading="lazy">
   </iframe>
 </div>
-
-
-
-
-
-
-

@@ -36,7 +36,7 @@ layout: default
         </span>
       {% endif %}
     </h1>
-    {% if page.description %}
+    {% if page.description and page.hide_description != true %}
       <p class="post-description">{{ page.description }}</p>
     {% endif %}
   </header>
