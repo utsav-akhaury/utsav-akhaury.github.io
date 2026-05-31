@@ -14,7 +14,7 @@ My background in Electronics Engineering and Astrophysics eventually found their
 Having lived in four countries across three continents, I'm endlessly drawn to the intricate details of music from around the world. After years of experimentation, improvisation, and a bit of procrastination, I'm finally proud to share my creative journey.
 
 A few elements that can make me instantly like a song:
-1. Odd time signatures
+1. Odd time signatures and polyrhythms
 2. Modal interchange — especially the minor plagal cadence (iv → I)
 3. Modal colour notes like ♭2, ♯4, ♭6
 4. Secondary dominants
