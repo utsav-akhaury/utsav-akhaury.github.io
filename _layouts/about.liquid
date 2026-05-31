@@ -13,8 +13,8 @@ layout: default
     </h1>
     {% if page.subtitle %}
       <p class="desc">{{ page.subtitle }}</p>
-    {% elsif page.description %}
-      <p class="post-description invisible">{{ page.description }}</p>
+    {% else %}
+      <p class="desc" style="margin-bottom: 0">&nbsp;</p>
     {% endif %}
   </header>
 
