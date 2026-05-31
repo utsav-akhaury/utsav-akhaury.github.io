@@ -6,29 +6,9 @@
 
 .navbar {
   box-shadow: none;
-  background-color: var(--global-bg-color);
-}
-
-body:not(.fixed-top-nav) .navbar {
   border-bottom: 1px solid var(--global-divider-color);
-}
-
-// Fixed-top navbar: draw the bottom border as a fixed-position 1px line
-// at the collapsed-navbar height instead of on the navbar itself, so it
-// never transitions when the mobile collapse opens/closes (which would
-// leave stale pixels in the GPU compositing layer until a scroll forced
-// a repaint). z-index sits below the scroll progress bar (z-index: 10)
-// so the blue progress paints on top of this grey baseline as it fills.
-body.fixed-top-nav::before {
-  content: "";
-  position: fixed;
-  top: 57px;
-  left: 0;
-  right: 0;
-  height: 1px;
-  background: var(--global-divider-color);
-  z-index: 9;
-  pointer-events: none;
+  background-color: var(--global-bg-color);
+  opacity: 0.95;
 }
 
 .navbar .dropdown-menu,
