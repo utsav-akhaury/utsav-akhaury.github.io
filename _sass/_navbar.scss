@@ -13,11 +13,12 @@ body:not(.fixed-top-nav) .navbar {
   border-bottom: 1px solid var(--global-divider-color);
 }
 
-// Fixed-top navbar: draw the bottom border as a fixed-position line at
-// the collapsed-navbar height instead of on the navbar itself, so it
-// never transitions when the mobile collapse opens/closes. Otherwise the
-// navbar's GPU compositing layer leaves a stale 1px line at the
-// previously-expanded bottom edge until a scroll forces a repaint.
+// Fixed-top navbar: draw the bottom border as a fixed-position 1px line
+// at the collapsed-navbar height instead of on the navbar itself, so it
+// never transitions when the mobile collapse opens/closes (which would
+// leave stale pixels in the GPU compositing layer until a scroll forced
+// a repaint). z-index sits below the scroll progress bar (z-index: 10)
+// so the blue progress paints on top of this grey baseline as it fills.
 body.fixed-top-nav::before {
   content: "";
   position: fixed;
@@ -26,7 +27,7 @@ body.fixed-top-nav::before {
   right: 0;
   height: 1px;
   background: var(--global-divider-color);
-  z-index: 1029;
+  z-index: 9;
   pointer-events: none;
 }
 

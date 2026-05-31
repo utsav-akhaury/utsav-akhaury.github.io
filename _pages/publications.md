@@ -2,7 +2,7 @@
 layout: page
 permalink: /publications/
 title: Research
-# description: Peer-reviewed journal articles, conference proceedings, posters, and talks — in reverse chronological order.
+description: "Peer-reviewed publications by Utsav Akhaury — journal articles, conference proceedings, posters, and talks in deep learning and image restoration."
 nav: true
 nav_order: 1
 ---

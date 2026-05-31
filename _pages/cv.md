@@ -6,7 +6,7 @@ nav: true
 nav_order: 2
 # cv_pdf: /assets/pdf/your_cv.pdf # set this to your CV path (or an external link) to make the PDF icon clickable
 cv_format: rendercv # options: rendercv, jsonresume
-# description: This is a description of the page. You can modify it in '_pages/cv.md'. You can also change or remove the top pdf download button.
+description: "Curriculum vitae of Utsav Akhaury — AI Software Engineer at Spot AI and PhD in Physics from EPFL. Experience, education, skills, and awards."
 toc:
   sidebar: left
 ---

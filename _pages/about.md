@@ -2,6 +2,7 @@
 layout: about
 title: About
 permalink: /
+description: "Personal site of Utsav Akhaury — AI Software Engineer building Agentic Vision."
 # subtitle: "AI Software Engineer @ <a href='https://spot.ai'>Spot AI</a> — building <i>Agentic Vision</i>: AI that sees, reasons, and acts on real-time video."
 
 profile:

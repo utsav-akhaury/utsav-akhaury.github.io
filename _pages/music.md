@@ -2,7 +2,7 @@
 layout: page
 permalink: /music/
 title: Music
-# description: "Pianist and electronic music producer — releases, collaborations, and a rotating shortlist of what I'm listening to."
+description: "Music by Utsav Akhaury — AI software engineer by day, musician by night."
 nav: true
 nav_order: 4
 ---
