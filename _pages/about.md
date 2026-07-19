@@ -38,6 +38,14 @@ Across 5+ years, I've built, trained, and shipped ML systems from prototype to p
 ## What I work on
 
 <div class="work-row">
+  <span class="skill-pill skill-pill--lead">Foundation encoders</span>
+  <span class="work-desc">Vision and image–text embeddings for retrieval and transfer learning (MobileCLIP, SigLIP, DINOv2/v3)</span>
+</div>
+<div class="work-row">
+  <span class="skill-pill skill-pill--lead">Multi-modality</span>
+  <span class="work-desc">VLMs for natural-language video search and reasoning</span>
+</div>
+<div class="work-row">
   <span class="skill-pill skill-pill--lead">Perception</span>
   <span class="work-desc">Detection, tracking, and segmentation for real-time video (YOLO, ByteTrack, SAM 2)</span>
 </div>
@@ -45,10 +53,7 @@ Across 5+ years, I've built, trained, and shipped ML systems from prototype to p
   <span class="skill-pill skill-pill--lead">Restoration</span>
   <span class="work-desc">Denoising, deconvolution, and super-resolution for astronomical imaging (U-Net, ViT, Swin Transformer)</span>
 </div>
-<div class="work-row">
-  <span class="skill-pill skill-pill--lead">Multi-modality</span>
-  <span class="work-desc">VLMs and CLIP-based retrieval for natural-language video search</span>
-</div>
+
 
 ## Tech I work with
 
