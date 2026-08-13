@@ -75,7 +75,7 @@ cv:
         start_date: 2021-05
         end_date: 2021-08
         highlights:
-          - "Built an automated framework for training **ML surrogates** that deliver near real-time predictions in place of computationally-expensive radar simulations — a GSoC contribution to gprMax (open-source simulation platform)."
+          - "Developed a new module for gprMax, a widely-used open-source EM simulation platform  Built an automated ML surrogate framework that reproduces computationally-expensive FDTD ground-penetrating radar simulations to high fidelity in near-real-time."
 
       - company: Observatoire de la Côte d'Azur
         url: https://www.oca.eu/
@@ -84,8 +84,7 @@ cv:
         start_date: 2021-05
         end_date: 2021-08
         highlights:
-          - "Built **3D CNNs** extending a 2D point detection algorithm to 3D on a 1 TB signal-cube dataset."
-          - "Designed a custom loss function with tunable intensity weighting to recover faint signals and improve detection of weak targets."
+          - "Extended the 2D DeepSource algorithm to a novel 3D CNN for point-source detection on the Square Kilometre Array (SKA) Science Data Challenge, with a custom noise-aware loss recovering faint sources from a 1 TB radio datacube."
 
       - company: French Alternative Energies and Atomic Energy Commission (CEA)
         url: https://www.cea.fr/
