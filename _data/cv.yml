@@ -75,7 +75,7 @@ cv:
         start_date: 2021-05
         end_date: 2021-08
         highlights:
-          - "Developed a new module for gprMax, a widely-used open-source EM simulation platform  Built an automated ML surrogate framework that reproduces computationally-expensive FDTD ground-penetrating radar simulations to high fidelity in near-real-time."
+          - "Developed a new module for gprMax, a widely-used open-source EM simulation platform. Built an automated ML surrogate framework that reproduces computationally-expensive FDTD ground-penetrating radar simulations to high fidelity in near-real-time."
 
       - company: Observatoire de la Côte d'Azur
         url: https://www.oca.eu/
