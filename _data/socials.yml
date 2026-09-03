@@ -1,7 +1,10 @@
 # this file contains the social media links and usernames of the author
 # the socials will be displayed in the order they are defined here
 # for more information, please refer to the documentation of jekyll-socials plugin: https://github.com/george-gca/jekyll-socials
-email: utsav.akhaury.2015@gmail.com
+# Percent-encoded to keep the plaintext address out of the HTML source
+# (jekyll-socials interpolates this verbatim into mailto:%s, and browsers
+# decode it). Decodes to utsav.akhaury.2015 [at] gmail.com
+email: "%75%74%73%61%76.%61%6B%68%61%75%72%79.%32%30%31%35@%67%6D%61%69%6C.%63%6F%6D"
 github_username: utsav-akhaury
 linkedin_username: utsav-akhaury
 scholar_userid: b-hEyyYAAAAJ

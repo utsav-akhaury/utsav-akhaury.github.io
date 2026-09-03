@@ -87,7 +87,7 @@ layout: default
                 <tr>
                   <td class="p-1 pr-2 font-weight-bold"><b>Email</b></td>
                   <td class="p-1 pl-2 font-weight-light">
-                    <a href="mailto:{{ cv.email | encode_email }}">{{ cv.email | replace: '@', '<span></span>@<span></span>' }}</a>
+                    <a href="mailto:{{ cv.email | encode_email }}">{{ cv.email | replace: '@', ' [at] ' }}</a>
                   </td>
                 </tr>
               {% endif %}
@@ -232,7 +232,7 @@ layout: default
                 <tr>
                   <td class="p-1 pr-2 font-weight-bold"><b>Email</b></td>
                   <td class="p-1 pl-2 font-weight-light">
-                    <a href="mailto:{{ basics.email | encode_email }}">{{ basics.email | replace: '@', '<span></span>@<span></span>' }}</a>
+                    <a href="mailto:{{ basics.email | encode_email }}">{{ basics.email | replace: '@', ' [at] ' }}</a>
                   </td>
                 </tr>
               {% endif %}
