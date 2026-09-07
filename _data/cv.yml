@@ -63,7 +63,7 @@ cv:
         start_date: 2021-09
         end_date: 2026-02
         highlights:
-          - "Built **deep learning** systems for large-scale image restoration using data from **NASA** and **ESA** missions, delivering ~1000× faster inference than classical methods."
+          - "Built **deep learning** systems for large-scale image restoration using data from **NASA** and **ESA** missions, delivering ~10,000× faster inference than classical methods."
           - "Designed end-to-end ML pipelines from data simulation through model training, evaluation, and deployment — scaling large vision models across **multi-node GPU** clusters via Slurm-scheduled HPC workflows."
           - "Developed a novel **multi-resolution image fusion** framework that combines multi-telescope, multi-spectral imaging data."
           - "Mentored junior researchers on independent projects and collaborated with teams across Europe and North America."
