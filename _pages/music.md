@@ -174,13 +174,13 @@ If you want to hear what I've actually finished, the originals are on Spotify, Y
     loading="lazy">
   </iframe>
   <iframe
-    src="https://www.youtube.com/embed/jd7UpgmspCM"
+    src="https://www.youtube.com/embed/oNpyC-cmL2U"
     allowfullscreen
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     loading="lazy">
   </iframe>
   <iframe
-    src="https://www.youtube.com/embed/Fe-ZqsOJPW8"
+    src="https://www.youtube.com/embed/Spcp-rJ-9LU"
     allowfullscreen
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     loading="lazy">
