@@ -33,13 +33,13 @@ I now apply that foundation as an AI Software Engineer at [Spot AI](https://spot
 
 I hold a PhD in Physics from [École Polytechnique Fédérale de Lausanne (EPFL)](https://infoscience.epfl.ch/entities/publication/bc2e9888-d73a-47f6-bdd6-630621730fec). My thesis focused on deep learning–based image enhancement, working with data from flagship NASA and European Space Agency (ESA) missions like _Hubble_, _James Webb_, and _Euclid_.
 
-Across 5+ years, I've built, trained, and shipped ML systems from prototype to production, with deep experience in HPC environments (multi-node GPU training, distributed data pipelines). In 2021, I was a [Google Summer of Code](https://summerofcode.withgoogle.com/archive/2021/projects/5922912141312000) contributor, building ML surrogates for physics-based simulation.
+Across 6+ years, I've built, trained, and shipped ML systems from prototype to production, with deep experience in HPC environments (multi-node GPU training, distributed data pipelines). In 2021, I was a [Google Summer of Code](https://summerofcode.withgoogle.com/archive/2021/projects/5922912141312000) contributor, building ML surrogates for physics-based simulation.
 
 ## What I work on
 
 <div class="work-row">
   <span class="skill-pill skill-pill--lead">Foundation encoders</span>
-  <span class="work-desc">Vision and image–text embeddings for retrieval and transfer learning (MobileCLIP, SigLIP, DINOv2/v3)</span>
+  <span class="work-desc">Vision and image–text embeddings for retrieval and transfer learning (CLIP-style models, DINO)</span>
 </div>
 <div class="work-row">
   <span class="skill-pill skill-pill--lead">Multi-modality</span>
@@ -47,7 +47,7 @@ Across 5+ years, I've built, trained, and shipped ML systems from prototype to p
 </div>
 <div class="work-row">
   <span class="skill-pill skill-pill--lead">Perception</span>
-  <span class="work-desc">Detection, tracking, and segmentation for real-time video (YOLO, ByteTrack, SAM 2)</span>
+  <span class="work-desc">Detection, tracking, and segmentation for real-time video (RF-DETR, YOLO, ByteTrack, SAM)</span>
 </div>
 <div class="work-row">
   <span class="skill-pill skill-pill--lead">Restoration</span>

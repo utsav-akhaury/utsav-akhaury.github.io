@@ -127,12 +127,13 @@ A few elements that can make me instantly like a song:
 
 ## Releases
 
-If you want to hear what I've actually finished, the originals are on Spotify, YouTube, and Apple Music. The covers, jam sessions, and mashups I can't help posting go up on Instagram.
+If you want to hear what I've actually finished, the originals are on Spotify, YouTube, and Apple Music. The covers, jam sessions, and mashups I can't help posting go up on Instagram. Half-baked and unfinished ideas go up on my SoundCloud.
 
 <div class="d-flex flex-wrap gap-2 mb-3">
   <a class="btn btn-sm btn-outline-primary" href="https://open.spotify.com/artist/6Z4HMMabdi0YCphd4HaMus" target="_blank" rel="noopener"><i class="fa-brands fa-spotify"></i> Spotify</a>
   <a class="btn btn-sm btn-outline-danger" href="https://youtube.com/@UtsavAkhaury" target="_blank" rel="noopener"><i class="fa-brands fa-youtube"></i> YouTube</a>
   <a class="btn btn-sm" style="color: #FA243C; border: 1px solid #FA243C;" href="https://music.apple.com/us/artist/utsav-akhaury/1644561545" target="_blank" rel="noopener"><i class="fa-brands fa-apple"></i> Apple Music</a>
+  <a class="btn btn-sm" style="color: #FF5500; border: 1px solid #FF5500;" href="https://soundcloud.com/utsav-akhaury" target="_blank" rel="noopener"><i class="fa-brands fa-soundcloud"></i> SoundCloud</a>
   <a class="btn btn-sm" style="color: #E1306C; border: 1px solid #E1306C;" href="https://www.instagram.com/utsav_akhaury/" target="_blank" rel="noopener"><i class="fa-brands fa-instagram"></i> Instagram</a>
 </div>
 
@@ -146,6 +147,19 @@ If you want to hear what I've actually finished, the originals are on Spotify, Y
   frameborder="0"
   allowfullscreen=""
   allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+  loading="lazy">
+</iframe>
+
+## SoundCloud <a class="music-header-link" href="https://soundcloud.com/utsav-akhaury" target="_blank" rel="noopener" title="Open on SoundCloud"><i class="fa-brands fa-soundcloud"></i></a>
+
+<iframe
+  style="border-radius:12px"
+  src="https://w.soundcloud.com/player/?url=https%3A//soundcloud.com/utsav-akhaury&color=%23ff5500&auto_play=false&hide_related=true&show_comments=false&show_user=true&show_reposts=false&show_teaser=false&visual=false"
+  width="100%"
+  height="352"
+  scrolling="no"
+  frameborder="no"
+  allow="autoplay"
   loading="lazy">
 </iframe>
 
